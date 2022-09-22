@@ -1,0 +1,43 @@
+<html>
+<head>
+<script>
+function sum()
+{
+let a=document.getElementById("t1").value;   
+let b=document.getElementById("t2").value;
+let c=document.getElementById("t3").value;
+let d=parseInt(a)+parseInt(b)-parseInt(c);
+document.getElementById("t4").innerHTML=d;  
+}
+</script>
+<style>
+.d1
+{
+border: thick solid blue;
+width:300px;
+padding:50px;
+margin-left:200px;
+margin-top:100px;
+background-color:DodgerBlue;
+color:black;
+}
+</style>
+</head>
+<div class="d1">
+<p><h4 align="center">salary calculator</h4>
+<p>employee_id</p>
+<input type="text" placeholder="employee_id" name="">
+<p>employee_name      </p>
+<input type="text" placeholder="employee_name" name="">
+<p>Basic</p>>
+<input id="t1" type="text" ><br>
+<p>Enter hra</p>>
+<input id="t2" type="text" ><br>
+<p>pf</p>>
+<input id="t3" type="text" ><br>
+<h1 style="font-family: ariel; font-size: 20;"">Gross salary</h1>
+<p id="t4"> </p>
+<button onclick="sum()">result</button><br><br>
+</div>
+</body >
+</html>
