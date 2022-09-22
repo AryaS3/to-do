@@ -2,6 +2,7 @@
 <head>
 <title>Registration Form</title>
 </head><b>
+
 <center style="background-color: tomato;">Registration Form</center></b>
 <body style="background-color: tomato; font-size:60px; font-style: italic;">
 <form>
